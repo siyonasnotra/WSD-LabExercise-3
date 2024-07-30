@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 64 64">
+  <path d="M6 24h2v16H6zm12 0h2v16h-2zm6-4h4v24h-4zm12 0h4v24h-4zm12 0h2v16h-2zm6 0h2v16h-2zM6 20h2v4H6zm12 0h2v4h-2zm12 8h4v8h-4zm12-8h2v4h-2zm12 0h2v4h-2z" fill="#000"/>
+  <rect x="8" y="28" width="48" height="8" fill="#000"/>
+    </svg>
+
+
+
+    <svg width="200" height="200" viewBox="-100 -100 200 200">
+        <circle cx="0" cy="20" r="70" fill="red"></circle>
+        <circle cx="0" cy="-75" r="12" fill="none" stroke="yellow" stroke-width="2"></circle>
+        <rect x="-17.5" y="-65" width="35" height="20" fill="blue"></rect>
+    </svg>
+    <br>
+    <br>
+    <svg width="100" height="60" viewBox="0 0 100 60">
+        <rect widtSSh="100" height="60" fill="red" rx="10" ry="10"></rect>
+        <polygon points="30,45,80,30,30,15" fill="white"></polygon> 
+        
+        <!-- <polygon points="40,15 70,30 40,45" fill="white"></polygon>  -->
+    </svg>
+</body>
+</html>
+
+
+
