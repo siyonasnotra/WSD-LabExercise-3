@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+
+/* Custom Carousel Controls */
+.carousel-custom-prev, .carousel-custom-next {
+  width: 10px; /* Adjust the width to your preference */
+  height: 10px; /* Adjust the height to your preference */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for visibility */
+  border: none;
+}
+
+.carousel-custom-prev {
+  left: 10px;
+}
+
+.carousel-custom-next {
+  right: 10px; /* Adjust the right position */
+}
+
+.carousel-control-prev-icon, .carousel--control-next-icon {
+  background-color: white; /* Icon background color for visibility */
+  border-radius: 50%; /* Make the icon background circular */
+}
+
+/* Make sure the buttons don’t overlap the carousel images */
+.carousel-inner {
+  padding-left: 50px; /* Adjust padding if needed */
+  padding-right: 50px; /* Adjust padding if needed */
+}
+
+.carousel {
+    margin: 0;
+    padding: 0;
+  }
+
+.carousel-item {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    margin: 0; /* Remove margin */
+  }
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures image covers the container */
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Remove extra spacing around the modal */
+.modal {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+footer a:hover {
+    text-decoration: underline;
+  }
+  
+/* Form styles */
+
+.contact-form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.contact-form {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s;
+  width: 100%;
+  max-width: 100%;
+}
+
+button[type="submit"]:hover /*Pseudo-class*/
+{
+  background-color: #45a049;
+  transform: scale(1.02);
+}
